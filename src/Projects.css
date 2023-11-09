@@ -1,0 +1,32 @@
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .project h3 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  .project p {
+    font-size: 16px;
+    color: #777;
+  }
+  
